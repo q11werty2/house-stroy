@@ -5,12 +5,34 @@
   width: 100%;
   background-color: white;
   padding: 0 9%;
-}
 
+  background-image: url("../../assets/cloudAfterFlower.png"),
+    url("../../assets/cloud.png"), url("../../assets/houseMain.png"),
+    url("../../assets/flower.png"), url("../../assets/sawdust.png");
+  background-repeat: no-repeat;
+  background-position: 33px 570px, right 645px, right, 0% 440px, right 880px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 0;
+    width: 306px;
+    height: 240px;
+    background-image: url("../../assets/cloudTop.png");
+    background-repeat: no-repeat;
+    background-position: right 11px;
+  }
+}
 
 .childrenBlock {
   max-width: 1800px;
   margin: 0 auto;
   width: 100%;
-  padding: 15px 30px;
+}
+
+.asideMenu {
+  position: absolute;
+  right: 0;
+  top: 269px;
 }
