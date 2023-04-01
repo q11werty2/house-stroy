@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
+
+import Router from "./router";
 
 function App() {
-  return (
-    <>Hello</>
-  );
+  return <Router />;
 }
 
 export default App;
