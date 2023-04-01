@@ -73,3 +73,18 @@
   font-size: 12px;
   line-height: 14px;
 }
+
+@media (max-width: 1140px) {
+  .wrapper {
+    width: 150%;
+  }
+}
+@media (max-width: 860px) {
+  .wrapper {
+    width: 100%;
+
+  }
+  .button {
+    width: 100%;
+  }
+}

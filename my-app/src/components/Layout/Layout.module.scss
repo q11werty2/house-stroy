@@ -10,10 +10,12 @@
     url("../../assets/cloudAfterFlower.png"), url("../../assets/cloud.png"),
     url("../../assets/houseMain.png"), url("../../assets/flower.png"),
     url("../../assets/sawdust.png"), url("../../assets/sheet.png"),
-    url("../../assets/flower2.png"), url("../../assets/footerHouse.png"), url("../../assets/shepki.png");
+    url("../../assets/flower2.png"), url("../../assets/footerHouse.png"),
+    url("../../assets/shepki.png");
   background-repeat: no-repeat;
   background-position: left calc(100% - 574px), 33px 570px, right 645px,
-    right 0%, 0% 440px, right 880px, left 1254px, right 100%, left 100%, 50% calc(100% - 440px);
+    right 0%, 0% 440px, right 880px, left 1254px, right 100%, left 100%,
+    50% calc(100% - 440px);
 
   &::before {
     content: "";
@@ -38,4 +40,48 @@
   position: absolute;
   right: 0;
   top: 269px;
+}
+
+@media (max-width: 1600px) {
+  .layout {
+    background-image: url("../../assets/flower.png"),
+      url("../../assets/cloudFooter.png"),
+      url("../../assets/cloudAfterFlower.png"), url("../../assets/cloud.png"),
+      url("../../assets/houseMain.png"), url("../../assets/sawdust.png"),
+      url("../../assets/sheet.png"), url("../../assets/flower2.png"),
+      url("../../assets/footerHouse.png"), url("../../assets/shepki.png");
+    background-repeat: no-repeat;
+    background-position: 0% 440px, left calc(100% - 574px), 33px 570px,
+      right 645px, right 0%, right 880px, left 1254px, right 90%, left 100%,
+      70% calc(100% - 540px);
+  }
+}
+@media (max-width: 1200px) {
+  .layout {
+    &::before {
+      content: "";
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .layout {
+    background-image: url("../../assets/flower.png"),
+      url("../../assets/cloudFooter.png"),
+      url("../../assets/cloudAfterFlower.png"), url("../../assets/cloud.png"),
+      url("../../assets/houseMain.png"), url("../../assets/sawdust.png"),
+      url("../../assets/sheet.png"), url("../../assets/flower2.png"),
+      url("../../assets/footerHouse.png"), url("../../assets/shepki.png");
+    background-repeat: no-repeat;
+    background-position: 0% 440px, left calc(100% - 314px), 33px 570px,
+      right 645px, right 0%, right 880px, left 1254px, right 90%, left 100%,
+      70% calc(100% - 540px);
+  }
+}
+
+@media (max-width: 670px) {
+  .asideMenu {
+    display: none;
+  }
 }

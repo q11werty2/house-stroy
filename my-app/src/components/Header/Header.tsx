@@ -11,7 +11,7 @@ const Header: FC = () => {
   return (
     <>
       <div className={styles.wrapper}>
-        <Logo />
+        <Logo className={styles.logoHeader}/>
         <div className={styles.schedule}>
           <p>Пн-Сб: c 10:00 до 20:00</p>
           <p>Выходной: воскресенье</p>

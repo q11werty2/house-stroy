@@ -23,3 +23,15 @@
 
   padding-bottom: 60px;
 }
+
+@media (max-width: 860px) {
+  .caseItem {
+    width: 100%;
+  }
+  .title, .subTitle {
+    color: white;
+  }
+  .title {
+    font-size: 25px;
+  }
+}

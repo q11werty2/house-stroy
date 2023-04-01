@@ -57,3 +57,23 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+@media (max-width: 1600px) {
+  .button {
+    display: none;
+  }
+}
+@media (max-width: 1330px) {
+  .model {
+    display: none;
+  }
+}
+
+@media (max-width: 930px) {
+  .schedule {
+    display: none;
+  }
+}
+
+
+
