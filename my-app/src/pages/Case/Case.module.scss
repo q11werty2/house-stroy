@@ -9,4 +9,105 @@
   }
 }
 
- 
+.content {
+  padding-top: 190px;
+}
+
+.titleOne {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 52px;
+
+  color: #363130;
+
+  padding-bottom: 20px;
+}
+
+.text {
+  background: #ffffff;
+  border: 1px solid #319f1c;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+
+  padding: 24px 60px 36px 43px;
+}
+
+.titleTwo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 26px;
+
+  color: #363130;
+
+  padding: 80px 0 30px;
+}
+
+.houses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 29px;
+  width: 100%;
+  padding-top: 71px;
+}
+
+.house1,
+.house2,
+.house3 {
+  background-repeat: no-repeat;
+  height: 334px;
+}
+.house1 {
+  background-image: url("../../assets/house1.png");
+}
+.house2 {
+  background-image: url("../../assets/house2.png");
+}
+.house3 {
+  background-image: url("../../assets/house3.png");
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 226px;
+  justify-items: flex-end;
+  gap: 20px;
+
+  position: relative;
+  left: 60%;
+  padding-bottom: 115px;
+}
+
+.formTitle {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 52px;
+
+  color: #2e2c2c;
+}
+
+.formText {
+  padding-bottom: 27px;
+}
+
+.formInput {
+  width: 30% !important;
+}
+
+.formBtn {
+  background: #319f1c;
+  border-radius: 3px;
+  border: none;
+  width: 30%;
+  padding: 13px 0;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}

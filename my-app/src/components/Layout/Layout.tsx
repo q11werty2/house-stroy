@@ -1,22 +1,26 @@
-import { FC, ReactNode } from 'react'
+import { FC, ReactNode } from "react";
 
-import Header from '../Header'
+import Header from "../Header";
+import Footer from "../Footer";
 import { ReactComponent as AsideMenu } from "../../assets/asideMenu.svg";
 
-import styles from './Layout.module.scss'
+import styles from "./Layout.module.scss";
 
 type LayotProps = {
-  children: ReactNode
-}
+  children: ReactNode;
+};
 
-const Layout: FC<LayotProps> = ({children}) => {
+const Layout: FC<LayotProps> = ({ children }) => {
   return (
-    <div className={styles.layout}>
-      <Header />
-      <AsideMenu className={styles.asideMenu}/>
-      <div className={styles.childrenBlock}>{children}</div>
-    </div>
-  )
-}
+    <>
+      <div className={styles.layout}>
+        <Header />
+        <AsideMenu className={styles.asideMenu} />
+        <div className={styles.childrenBlock}>{children}</div>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;

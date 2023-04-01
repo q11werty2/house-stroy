@@ -6,11 +6,14 @@
   background-color: white;
   padding: 0 9%;
 
-  background-image: url("../../assets/cloudAfterFlower.png"),
-    url("../../assets/cloud.png"), url("../../assets/houseMain.png"),
-    url("../../assets/flower.png"), url("../../assets/sawdust.png");
+  background-image: url("../../assets/cloudFooter.png"),
+    url("../../assets/cloudAfterFlower.png"), url("../../assets/cloud.png"),
+    url("../../assets/houseMain.png"), url("../../assets/flower.png"),
+    url("../../assets/sawdust.png"), url("../../assets/sheet.png"),
+    url("../../assets/flower2.png"), url("../../assets/footerHouse.png"), url("../../assets/shepki.png");
   background-repeat: no-repeat;
-  background-position: 33px 570px, right 645px, right, 0% 440px, right 880px;
+  background-position: left calc(100% - 574px), 33px 570px, right 645px,
+    right 0%, 0% 440px, right 880px, left 1254px, right 100%, left 100%, 50% calc(100% - 440px);
 
   &::before {
     content: "";

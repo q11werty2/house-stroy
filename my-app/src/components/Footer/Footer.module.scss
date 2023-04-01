@@ -1,0 +1,32 @@
+.wrapper {
+  height: 300px;
+  background: #363130;
+  padding: 0 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  background: none;
+  padding: 22px 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
