@@ -1,0 +1,25 @@
+.input {
+  border: 1px solid #319f1c;
+  border-radius: 3px;
+  width: 45%;
+  height: 40px;
+
+  &::placeholder {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #8a8a8a;
+
+    padding-left: 34px;
+  }
+}
+
+@media (max-width: 860px) {
+  .input {
+    width: 100%;
+  }
+}
+

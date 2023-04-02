@@ -1,0 +1,51 @@
+.wrapper {
+  min-height: 300px;
+  background: #363130;
+  padding: 0 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  background: none;
+  padding: 22px 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 1130px) {
+  .form {
+    left: 50%;
+  }
+  .formText {
+    font-weight: 1000;
+  }
+  .logo {
+    display: none;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}

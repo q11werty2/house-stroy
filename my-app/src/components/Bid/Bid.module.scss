@@ -1,0 +1,90 @@
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding: 30px 40px 45px;
+  position: relative;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 2px;
+
+  color: #319f1c;
+}
+
+.subTitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+
+.button {
+  background: #319f1c;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 0;
+  width: 45%;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.gift {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.padlock {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  left: -20px;
+  top: -13px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media (max-width: 1140px) {
+  .wrapper {
+    width: 150%;
+  }
+}
+@media (max-width: 860px) {
+  .wrapper {
+    width: 100%;
+
+  }
+  .button {
+    width: 100%;
+  }
+}
